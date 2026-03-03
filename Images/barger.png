@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)file:///D:/Html%20css/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./barger_files/style.css">
+    <link rel="stylesheet" href="./barger_files/media.css">
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <div class="header_inneer">
+                <div class="box-radi">
+                    <img class="imgs" src="./barger_files/barger-logo.png">
+                </div>
+                <div class="mid-head-text">
+                    <p class="p-text">
+                        DELIVERY
+                    </p>
+                    <div class="on-off">
+                        <div class="custom-checkbox">
+                            <input id="status" type="checkbox" name="status">
+                            <label for="status">
+                                <div class="status-switch" data-unchecked="Off" data-checked="On">
+                                </div>
+                            </label>
+                        </div>
+                        <div class="text-secound">
+                            <h2>DINE-IN/TAKEAWAY</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mobile-menu-btn" id="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="input_div">
+                <fieldset class="fieldInput">
+                    <input class="form-input" type="email" placeholder="No stores nearby">
+                    <button type="submit" class="form-submit">Enter</button>
+                </fieldset>
+            </div>
+        </div>
+
+        <div class="right" id="nav-links">
+            <div class="box">
+                <img src="./barger_files/train.svg" alt="">
+                <h2>NEARBY STORES</h2>
+            </div>
+
+            <div class="box">
+                <img src="./barger_files/offers.svg" alt="">
+                <h2>KING DEALS</h2>
+            </div>
+
+            <div class="box">
+                <img src="./barger_files/profile.svg" alt="">
+                <h2>LOGIN</h2>
+            </div>
+
+            <div class="box">
+                <img src="./barger_files/cartsvg.svg" alt="">
+                <h2>CART</h2>
+            </div>
+
+            <div class="boxx">
+                <img src="./barger_files/search.svg" alt="">
+                <h2>SEARCH</h2>
+            </div>
+        </div>
+    </header>
+
+    <div class="Bigg_imges">
+        <img src="./barger_files/poster_imges.jpg" alt="Promotional Poster">
+    </div>
+
+    <main class="main_items_box">
+
+
+        <div class="container">
+            <div class="slide">
+                <div class="item" style="
+            background-image: url(&#39;https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?q=80&amp;w=1074&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&#39;);
+          ">
+                    <div class="content">
+                        <div class="name">Scotland</div>
+                        <div class="des">
+                            Experience the mystical Highlands under twilight skies and misty lochs.
+                        </div>
+                        <a class="seeMore" target="_blank" href="https://github.com/MDJAmin"><button>See
+                                More</button></a>
+                    </div>
+                </div>
+
+                <div class="item" style="
+            background-image: url(&#39;https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?q=80&amp;w=1173&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&#39;);
+          ">
+                    <div class="content">
+                        <div class="name">Norway</div>
+                        <div class="des">
+                            Chase the Northern Lights under star-lit skies along scenic fjord roads.
+                        </div>
+                        <a class="seeMore" target="_blank" href="https://github.com/MDJAmin"><button>See
+                                More</button></a>
+                    </div>
+                </div>
+
+                <div class="item" style="
+            background-image: url(&#39;https://images.unsplash.com/photo-1483982258113-b72862e6cff6?q=80&amp;w=1170&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&#39;);
+          ">
+                    <div class="content">
+                        <div class="name">New Zealand</div>
+                        <div class="des">
+                            Wander dramatic, mist-laden mountain paths that feel straight out of a dream.
+                        </div>
+                        <a class="seeMore" target="_blank" href="https://github.com/MDJAmin"><button>See
+                                More</button></a>
+                    </div>
+                </div>
+
+                <div class="item" style="
+            background-image: url(&#39;https://images.unsplash.com/photo-1477346611705-65d1883cee1e?q=80&amp;w=2070&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&#39;);
+          ">
+                    <div class="content">
+                        <div class="name">Japan</div>
+                        <div class="des">
+                            Discover serene mountain temples shrouded in dusk and ancient forest trails.
+                        </div>
+                        <a class="seeMore" target="_blank" href="https://github.com/MDJAmin"><button>See
+                                More</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="button">
+                <button class="prev">◁</button>
+                <button class="next">▷</button>
+            </div>
+        </div>
+        <div class="MDJAminDiv">
+            <a class="MDJAmin" href="https://github.com/MDJAmin" target="_blank">MDJAmin</a>
+        </div>
+        <script src="file:///D:/Html%20css/js/script.js"></script>
+
+
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuBtn = document.getElementById('menu-btn');
+            const navLinks = document.getElementById('nav-links');
+
+            menuBtn.addEventListener('click', () => {
+                menuBtn.classList.toggle('active');
+                navLinks.classList.toggle('active');
+            });
+        });
+
+
+        "use strict";
+
+        let next = document.querySelector(".next");
+        let prev = document.querySelector(".prev");
+
+        next.addEventListener("click", function () {
+            let items = document.querySelectorAll(".item");
+            document.querySelector(".slide").appendChild(items[0]);
+        });
+
+        prev.addEventListener("click", function () {
+            let items = document.querySelectorAll(".item");
+            document.querySelector(".slide").prepend(items[items.length - 1]);
+        });
+
+    </script>
+
+
+</body></html>
